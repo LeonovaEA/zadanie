@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 age = int(input("Возраст "))
 name = input("Имя ")
 years = 0
