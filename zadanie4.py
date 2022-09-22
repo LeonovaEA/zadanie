@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 second = int(input())
 day = 0
 hour = 0
