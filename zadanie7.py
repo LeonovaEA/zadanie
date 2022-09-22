@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 number = int(input())
 number = number % 2
 if number == 0:
