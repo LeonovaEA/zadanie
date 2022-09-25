@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 n = int(input())
-hours = n % (60 * 24) // 60
-minutes = n % 60
+n = n % (60*24)
+hours = n // 60
+n = n % 60
+minutes = n
 print(hours, minutes)
