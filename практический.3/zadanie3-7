@@ -1,11 +1,5 @@
-# -*- coding: utf-8 -*-
-year = int(input('Введите год: '))
-if year % 4 != 0:
-  print('Год не високосный.')
-elif year % 100 == 0:
- if year % 400 == 0:
-  print('Год високосный.')
- else:
-  print('Год не високосный.')
-else:
-  print('Год високосный.')
+def Zadanie7(years):
+    if ((years % 400 == 0)) or ((years % 4 == 0) and not(years % 100 == 0)):
+        print("Да")
+    else:
+        print("Нет")
