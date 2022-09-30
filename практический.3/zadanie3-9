@@ -1,5 +1,6 @@
-def Zadanie9(n, m, k):
- if n * m > k and ((k % m) or(k % n)):
+# -*- coding: utf-8 -*-
+def Zadanie9(n, z, q):
+ if n * z > q and ((q % z) or(q % n)):
    print ("ДА")
  else:
    print ("НЕТ")
