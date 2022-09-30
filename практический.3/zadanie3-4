@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-a = int(input())
-b = int(input())
-L = int(input())
-N = int(input())
-print(2 * L + (2 * N - 1) * a + 2 * (N - 1) * b)
+def Zadanie4(a, b, I, N):
+ length = ((N*2-1)*a)+((N*2-2)*b)+2*I
+ if length == 0:
+     print("Зачем вам шнурки)")
+ else:
+     print("Длинна шнурков должна ", length)
