@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 def Zadanie5 (number1, number2, number3):
     if number1 < number3 and number1 < number2:
         print("Число", number1, "наименьшее")
