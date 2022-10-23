@@ -1,0 +1,7 @@
+n = int(input('факториал до числа - '))
+A = 1
+for i in range (1, n):
+    A *= i
+i += 1
+A *= i
+print(A)
