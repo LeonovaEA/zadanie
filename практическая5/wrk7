@@ -1,0 +1,9 @@
+A=int(input('Введите числа-'))
+B=0
+C=0
+while A!=0:
+    if B!=0 and (A>B):
+     C+=1
+    B=A
+    A=int(input())
+print('Количество чисел-',C)

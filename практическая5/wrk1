@@ -1,0 +1,5 @@
+N=int(input())
+L=1
+while (L**2) <=N:
+    print(L**2 )
+    L+=1
