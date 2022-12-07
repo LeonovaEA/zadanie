@@ -18,3 +18,4 @@ def Zadanie92(n):
         for j in range(n):
             print(A[i][j], end=' ')
         print()
+Zadanie92(3)
